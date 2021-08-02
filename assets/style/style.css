@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: arg1;
+    src: url(../fonts/arg/ARGDXQ+ErbarURW-Bold.ttf);
+}
+@font-face{
+    font-family: arg2;
+    src: url(../fonts/arg/ARGDXQ+ErbarURW-DemiBold.ttf);
+}
+@font-face{
+    font-family: arg3;
+    src: url(../fonts/arg/ARGDXQ+ErbarURW-Light.ttf);
+}
+@font-face{
+    font-family: argMedium;
+    src: url(../fonts/arg/ARGDXQ+ErbarURW-Medium.ttf);
+}
+
+.section-1{
+    width: 100%;
+    min-height: 100vh;
+}
+.inner-section-1{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav_bar{
+    padding: 20px 0;
+}
+.links a{
+   margin-right: 35px; 
+   font-family: arg2;
+   color: #271e39;
+}
+
+.search-input{
+    border: 1px solid #271e39;
+    outline: none;
+    padding-left: 5px;
+}
+.nav-search i{
+    background-color: #271e39;
+    padding: 7px;
+    color: #fff;
+}
+
+.imgText-section{
+    position: relative;
+}
+
+.imgText-section h1{
+    background-color: #271e39;
+    color: #fff;
+    padding: 30px;
+    font-family: arg1;
+    font-size: 70px !important;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+.scroll-down{
+    background-color: #271e39;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.scroll-down i{
+    animation: arrow 1.5s infinite;
+}
+@keyframes arrow{
+    0%{transform: translateY(-7px);}
+    50%{transform: translateY(7px);}
+    100%{transform: translateY(-7px);}
+}
+
+.youtube-video{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.youtube-video .bx{
+    font-size: 25px;
+}
+
+
+.section-2{
+    width: 100%;
+    min-height: 100vh;
+    color: #271e39;
+    /* background-color: antiquewhite; */
+}
+.inner-section-2{
+    padding: 100px 0px;
+    height: fit-content;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.inner-section-2 .left-side{
+    width: 58%;
+}
+.left-side h1{
+    font-family: arg2;
+    margin-bottom: 50px;
+}
+.lg-img-card{
+    margin-top: 100px;
+}
+.lg-img-card h3, .right-side h3{
+    font-family: argMedium;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.lg-img-card p, .right-side p{
+    font-family: arg3;
+    font-weight: 700;
+    color: #271e3991;
+}
+.gallery-link{
+    color: #271e39;
+    font-weight: 800;
+    font-family: arg3;
+}
+.gallery-link .vertical-line, .gallery-link .bx{
+    font-size: 20px;
+    color: #e29369;
+}
+.inner-section-2 .right-side{
+    width: 38%;
+}
+.right-side .img-card:nth-child(2){
+    margin-top: 60px;
+}
+
+
+.section-3{
+    width: 100%;
+    padding: 50px 0;
+    color: #271e39;
+}
+.inner-section-3{
+    /* background-color: brown; */
+}
+.inner-section-3 h2{
+    font-family: arg2;
+}
+.inner-section-3 .tiny{
+    font-family: arg3;
+}
+.inner-section-3 p{
+    font-family: arg3;
+}
+.text-box-3{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+    margin-top: 30px;
+}
+.inner-text-box-3{
+    width: 80%;
+    margin: 0 auto;
+}
+.text-box-card i{
+    color: #271e39;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+
+.section-4{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+}
+.inner-section-4{
+    width: 80%;
+    margin: 0 auto;
+    height: fit-content;
+}
+.left-side-4{
+    width: 60%;
+    color: #271e39;
+    padding-right: 100px;
+}
+.left-side-4 h1{
+    font-family: arg1;
+    margin-bottom: 40px;
+}
+.left-side-4 p{
+    font-family: argMedium;
+}
+.number-cards{
+    margin: 40px 0;
+}
+.left-side-4 h2{
+    font-family: arg1;
+}
+.left-side-4 button{
+    background: none;
+    border: none;
+    font-family: arg1;
+}
+.more-btn{
+    background-color: #271e39;
+    color: #fff;
+    padding: 5px 13px 5px 0px;
+}
+.right-side-4{
+    width: 40%;
+}
+
+
+
+.section-5{
+    width: 100%;
+}
+.inner-section-5{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    color: #271e39;
+}
+.text-box-5{
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+.left-side-5, .right-side-5{
+    width: 48%;
+}
+.left-side-5 h1{
+    font-family: arg2;
+}
+.left-side-5 .sub-text{
+    font-family: argMedium;
+    margin: 40px 0 70px 0;
+}
+.text-box-5 h3{
+    color: #e29369;
+    font-family: arg1;
+}
+.text-box-5 p{
+    font-family: argMedium;
+}
+
+.right-side-5{
+    background-color: #f0f0f0;
+    padding: 50px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.right-side-5 h5{
+    font-family: argMedium;
+    font-weight: 600;
+}
+.right-side-5 p{
+    font-family: argMedium;
+}
+
+
+
+footer{
+    background-color: #271e39;
+    min-height: 50vh;
+    color: #fff;
+}
+.inner-footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.top-footer{
+    width: 100%;
+}
+.footer-details{
+    width: 20%;
+}
+.social-footer i{
+    background-color: #e29369;
+    color: #fff;
+    padding: 7px;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.footer-details h1, .footer-details h4, .footer-details a{
+    font-family: arg2;
+}
+.footer-details p{
+    font-family: arg3;
+}
+.footer-details a{
+    color: #fff;
+    text-decoration: none;
+    font-family: arg3;
+}
+.footer-details input{
+    background: none;
+    border: 1px solid  #e29369;
+    padding: 5px 10px;
+    font-family: arg3;
+    color: #fff;
+}
+.input-box i{
+    background-color: #e29369;
+    padding: 10px;
+}
+.footer-details button{
+    background-color: #e29369;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: arg2;
+}
+.bottom-footer{
+    width: 100%;
+    background-color: #15101f;
+    text-align: center;
+    padding: 20px;
+    font-family: arg2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1010px){
+    .youtube-video{
+        background-color: #fff;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 606px){
+    .scroll-down{
+        bottom: -90px;
+    }
+}
+
+@media screen and (max-width: 603px){
+    .youtube-video{
+        bottom: -90px;
+    }
+}
+
+@media screen and (max-width: 473px){
+    .youtube-video{
+        bottom: -150px;
+    }
+}
